@@ -1,0 +1,322 @@
+/*Navbar Section*/
+
+.navbar-nav {
+  font-size: 20px;
+}
+
+/*Row Styling*/
+
+#about-section,
+#service-row,
+#front-leadership,
+#portfolio-section {
+  background-color: #e9ecef !important;
+}
+
+.list-group-item {
+  background-color: #e9ecef !important;
+}
+
+/*Font Header Styling*/
+
+.front-services-header,
+.front-about-header,
+.front-leadership-header,
+.front-contact-header,
+.about-header,
+.service-header,
+.portfolio-header,
+#carousel-caption h2,
+.grid-format-header {
+  font-size: 3em;
+  font-family: 'DM Serif Display', serif !important;
+  font-weight: 700;
+}
+
+.horizontal-1 {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #C0372B;
+  width: 10%;
+  display: inline-block;
+}
+
+.horizontal-2 {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #C0372B;
+  width: 10%;
+}
+
+/*Font Styling*/
+
+#front-prg,
+#about-lead {
+  font-weight: 600;
+}
+
+
+/*Glyphs*/
+
+.fa-home,
+.fa-wrench,
+.fa-circle-o-notch,
+.fa-clipboard {
+  color: #C0372B !important;
+}
+
+
+/*Card Section*/
+
+.card-img-top {
+  height: 150px;
+  width: 150px;
+  border-radius: 51% 51% 51% 51%;
+}
+
+#card:hover,
+#card-button:hover {
+  background-color: #C0372B;
+  color: #fff;
+}
+
+/*Carousel Section*/
+
+.main-text
+{
+    position: absolute;
+    top: 250px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+
+#carousel-caption {
+  background: rgba(192,55,43,.8);
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 3.125em;
+  height: 3.125em;
+}
+
+#caption-1a {
+    font-family: 'Roboto', sans-serif !important;
+    text-shadow: 4px 4px 4px rgba(0,0,0,.5);
+}
+
+.fourth-title {
+  font-family: 'Cardo', serif;
+}
+
+#header-prg {
+      text-shadow: 1px 1px 1px rgba(0,0,0,.9); 
+}
+
+#port-4grid-1,
+#port-6grid-1,
+#port-6grid-3 {
+  background-image: url("../img/project-image-1a.png");
+}
+
+#port-4grid-2,
+#port-6grid-2 {
+  background-image: url("../img/project-image-2a.png");
+}
+
+#port-4grid-3,
+#port-6grid-4,
+#port-6grid-6 {
+  background-image: url("../img/project-image-3.png");
+}
+
+#port-4grid-4,
+#port-6grid-5 {
+  background-image: url("../img/project-image-4.png");
+}
+
+#port-4grid-1,
+#port-4grid-2,
+#port-4grid-3,
+#port-4grid-4,
+#port-6grid-1,
+#port-6grid-2,
+#port-6grid-3,
+#port-6grid-4,
+#port-6grid-5
+#port-6grid-6 {
+  background-color: #222;
+  background-position: center center;
+  background-size: cover;
+  height: 50vh;
+}
+
+
+.gallery-image-1 {
+  height: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.gallery-image-2 {
+  height: 100%;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(192,55,43,.7);
+}
+
+#gallery-image-1:hover .overlay,
+#gallery-image-2:hover .overlay,
+#gallery-image-3:hover .overlay,
+#gallery-image-4:hover .overlay  {
+  opacity: 1;
+}
+
+.text-1,
+.text-2 {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-1 {
+  top: 45%
+}
+
+.text-2 {
+  top: 55%;
+}
+
+
+/*Button Stylings*/
+.btn {
+  border-radius: 0px;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.btn-danger {
+  background-color: #C0372B;
+  border-color: #C0372B;
+}
+
+.btn-danger:hover {
+  background-color: #FF4500;
+  border-color: #FF4500;
+}
+
+
+/*Footer Section*/
+
+#footer {
+  font-size: 14px;
+}
+
+#footer ul li {
+  text-transform: uppercase;
+}
+
+#footer ul li a {
+  color: #fff;
+}
+
+
+#front-about,
+#front-leadership,
+#about-section,
+#service-row,
+#portfolio-section {
+  background-image: url('../img/Legacy-Engineers-Final-Logo.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%
+  width: 100;
+  z-index: -2;
+}
+
+#checkmark {
+  color: #C0372B;
+} 
+
+/*Grid Images*/
+
+@media only screen and (min-width: 992px) {
+    #service-row-1a{
+      box-shadow: 250px 25px 0px #fff;
+    }
+
+    #service-row-1b {
+      background-color: #fff;
+      height: 136%;
+      margin-top: -30px;
+    }
+
+    #service-row-2b {
+      background-color: #fff;
+      height: 105%;
+      margin-top: -31px;
+    }
+
+    #service-row-3a {
+      background-color: #fff;
+      margin-top: 23px;
+      height: 97%;
+    }
+    
+    #service-row-3b {
+      box-shadow: -80px 23px 0px #fff;
+    }
+
+    .service-font {
+      font-size: 15px;
+    }
+
+    #about-section p {
+      padding-left: 300px;
+      padding-right: 300px;
+    }
+
+    #about-section .about-header,
+    #service-row .service-header {
+      padding-left: 250px;,
+    }
+
+    #about-section .horizontal-1,
+    #service-row .horizontal-1 {
+      margin-left: 250px;
+    }
+
+    .about-image,
+    .service-image {
+      width: 99vw;
+      height: 60vh;
+    }
+
+    #service-row p#service-prg {
+      margin-left: 320px;
+      margin-right: 320px;
+    }
+
+    #gallery-image-1,
+    #gallery-image-2,
+    #gallery-image-3,
+    #gallery-image-4 {
+      height: 35vh;
+    }
+
+}
