@@ -43,7 +43,7 @@ h5 {
 .horizontal-1 {
   border-top-style: solid;
   border-top-width: 2px;
-  border-top-color: #C0372B;
+  border-top-color: #DE4D3B;
   width: 10%;
   display: inline-block;
 }
@@ -51,8 +51,16 @@ h5 {
 .horizontal-2 {
   border-top-style: solid;
   border-top-width: 2px;
-  border-top-color: #C0372B;
+  border-top-color: #DE4D3B;
   width: 10%;
+}
+
+.horizontal-3 {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #fff;
+  width: 10%;
+  margin-left: 20px; 
 }
 
 /*Font Styling*/
@@ -79,6 +87,10 @@ h5 {
   width: 69px;
 }
 
+.genconstr {
+  padding-bottom: 39px;
+}
+
 #constrmgmt {
   height: 90px; 
   width: 66px;
@@ -89,24 +101,72 @@ h5 {
   font-weight: 700;
 }
 
+#grid-a .grid-a1 {
+  width: 254px; 
+}
+
+#grid-a .grid-a2 {
+  width: 260px; 
+}
+
+#grid-a .grid-a3,
+#grid-a .grid-a4 {
+  width: 266px;
+}
+
+#grid-a .grid-a1,
+#grid-a .grid-a2,
+#grid-a .grid-a3,
+#grid-a .grid-a4 {
+  height: 84px;
+  color: #868686; 
+  font-family: "Neue Haas Grotesk Text Pro";  
+  font-size: 16px;  
+  text-align: center !important;
+}
+
+
 /*Card Section*/
 
+.card-body {
+  border-radius: 2px;
+  height: 403px;
+}
+
+.card-body h5 {
+  font-size: 16px;
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-weight: 700;
+}
+
+.card-body h6 {
+  font-size: 16px;
+  margin-top: -10px;
+  font-family: "Neue Haas Grotesk Text Pro";
+}
+
+.card-body p,
+.card-body a  {
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-size: 14px;  
+}
+
 .card-img-top {
-  height: 150px;
-  width: 150px;
-  border-radius: 51% 51% 51% 51%;
+  height: 123px;
+  width: 123px;
+  border-radius: 50% 50% 50% 50%;
 }
 
 #card:hover,
 #card-button:hover {
-  background-color: #C0372B;
+  background-color: #DE4D3B;
   color: #fff;
+  border-radius: 2px; 
 }
 
 /*Carousel Section*/
 
-.main-text
-{
+.main-text {
     position: absolute;
     top: 250px;
     width: 96.66666666666666%;
@@ -114,7 +174,21 @@ h5 {
 }
 
 #carousel-caption {
-  background: rgba(192,55,43,.8);
+  background: rgba(222,77,59,.8);
+  margin-bottom: 72px;
+  width: 476px;
+}
+
+#carousel-caption h2 {
+  padding: 12px 12px 3px 12px;
+}
+
+#carousel-caption p {
+  padding: 3px 12px 6px 12px;
+}
+
+#carousel-caption #car-button {
+  padding: 6px 12px 12px 12px;  
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -233,6 +307,7 @@ h5 {
 .btn {
   border-radius: 0px;
   font-family: 'neue-haas-grotesk-display', sans-serif;
+  font-size: 14px; 
   width: 169px;
 }
 
@@ -246,10 +321,35 @@ h5 {
   border-color: #FF4500;
 }
 
+.addr-1,
+.addr-2 {
+  font-size: 16px;
+  color: #868686;
+}
+
+.addr-2 {
+  margin-left: 25px; 
+}
+
+#contact-prg h5 {
+  color: #555555;
+}
+
+#contact-prg p {
+  color: #868686;
+  font-size: 16px;
+}
 
 /*Footer Section*/
 
 #footer {
+  font-family: 'neue-haas-grotesk-display', sans-serif; 
+  font-size: 14px;
+}
+
+#footer h6 {
+  color: #EAEAEA; 
+  font-family: 'Ubuntu';  
   font-size: 14px;
 }
 
@@ -258,7 +358,7 @@ h5 {
 }
 
 #footer ul li a {
-  color: #fff;
+  color: #eaeaea;
 }
 
 
@@ -375,7 +475,35 @@ h5 {
       background-color: #DE4D3B;
       top: 297px;
       right: 29px;
+    }
+
+    #rectangle-2 {
+      position: absolute;
+      height: 201px;  
+      width: 36px;  
+      background-color: #DE4D3B;
+      top: -17px;
+      left: 398px;
+    }
+
+    #rectangle-3 {
+      position: absolute;
+      transform: rotate(90deg); /* Equal to rotateZ(90deg) */
+      height: 201px;  
+      width: 36px;  
+      background-color: #DE4D3B;
+      top: -100px;
+      left: 310px;
+    }
+
+
 }
 
-
+@media only screen and (max-width: 991.98px) {
+    #grid-a .grid-a1,
+    #grid-a .grid-a2,
+    #grid-a .grid-a3,
+    #grid-a .grid-a4 {
+      width: auto;
+    }
 }
