@@ -25,7 +25,7 @@ h5 {
 }
 
 .list-group-item {
-  background-color: #e9ecef !important;
+  background-color: transparent;
 }
 
 /*Font Header Styling*/
@@ -279,6 +279,12 @@ font-family: "Neue Haas Grotesk Text Pro";
   line-height: 28px;
 }
 
+p#service-prg {
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-size: 24px;
+  color: #555555;
+}
+
 /*Portfolio Page*/
 .portfolio-prg {
   font-family: "Neue Haas Grotesk Text Pro";
@@ -489,16 +495,99 @@ font-family: "Neue Haas Grotesk Text Pro";
 }
 
 
+/*Shapes*/
+
+#rectangle-1 {
+  position: relative;
+  height: 224px;  
+  width: 36px;  
+  background-color: #DE4D3B;
+  top: 297px;
+  right: 29px;
+}
+
+#rectangle-2 {
+  position: absolute;
+  height: 201px;  
+  width: 36px;  
+  background-color: #DE4D3B;
+  top: -17px;
+  left: 398px;
+}
+
+#rectangle-3 {
+  position: absolute;
+  transform: rotate(90deg); /* Equal to rotateZ(90deg) */
+  height: 201px;  
+  width: 36px;  
+  background-color: #DE4D3B;
+  top: -100px;
+  left: 310px;
+}
+
+#rectangle-4 {
+  position: inherit;
+  background-color: #fff;
+  height: 360px;
+  width: 848px;
+  margin-bottom: -400px;
+  margin-left: 280px;
+}
+
+#rectangle-5 {
+  position: absolute;
+  width: 25px;
+  height: 160px;  
+  background-color: #DE4D3B;
+  top: 0px;
+  left: 555px;
+}
+
+#rectangle-6 {
+  position: inherit;
+  background-color: #fff;
+  height: 350px;
+  width: 848px;
+  margin-bottom: -380px;
+  margin-left: 280px;
+}
+
+#rectangle-7 {
+  position: absolute;
+  width: 25px;
+  height: 150px;
+  background-color: #DE4D3B;
+  top: 230px;
+  left: 540px;
+}
+
+#rectangle-8 {
+  position: inherit;
+  background-color: #fff;
+  height: 400px;
+  width: 848px;
+  margin-bottom: -420px;
+  margin-right: 280px;
+}
+
+#rectangle-9 {
+  position: absolute;
+  width: 25px;
+  height: 150px;
+  background-color: #DE4D3B;
+  top: 208px;
+  left: 540px;
+}
+
 /*Media Queries*/
 
-@media only screen and (min-width: 769px) and (max-width: 1112px) {
+@media only screen and (min-width: 359px) and (max-width: 1112px) {
     #about-section p,
     #about-section .about-header,
     #service-row .service-header,
     #about-section .horizontal-1,
-    #service-row .horizontal-1 {
-      padding-left: auto;
-      padding-right: auto;
+    #service-row .horizontal-1,
+    #service-prg {
       margin-left: auto;
       margin-right: auto;
     }
@@ -506,6 +595,14 @@ font-family: "Neue Haas Grotesk Text Pro";
     #main-text h1 {
       font-size: 2rem;
     }
+
+/*    #rectangle-4,
+    #rectangle-5,
+    #rectangle-6,
+    #rectangle-7,
+    #rectangle-8 {
+      display: none;
+    }*/
 } 
 
 @media only screen and (min-width: 1113px) {
@@ -523,6 +620,11 @@ font-family: "Neue Haas Grotesk Text Pro";
     #service-row .horizontal-1 {
       margin-left: 250px;
     }
+
+    #service-prg {
+      margin-left: 320px;
+      margin-right: 320px;
+    }
 }
 
 
@@ -530,49 +632,13 @@ font-family: "Neue Haas Grotesk Text Pro";
   
     /*Grid Images*/
 
-    #service-row-1a{
-      box-shadow: 250px 25px 0px #fff;
-    }
-
-    #service-row-1b {
-      background-color: #fff;
-      height: 136%;
-      margin-top: -30px;
-    }
-
-    #service-row-2b {
-      background-color: #fff;
-      height: 105%;
-      margin-top: -31px;
-    }
-
-    #service-row-3a {
-      background-color: #fff;
-      margin-top: 23px;
-      height: 97%;
-    }
-    
-    #service-row-3b {
-      box-shadow: -80px 23px 0px #fff;
-    }
-
-    .service-font {
-      font-size: 15px;
-    }
-
     .about-image,
     .service-image {
       width: 99vw;
       height: 40vh;
     }
 
-    #service-row p#service-prg {
-      font-family: "Neue Haas Grotesk Text Pro";
-      font-size: 24px;
-      margin-left: 320px;
-      margin-right: 320px;
-      color: #555555;
-    }
+    #service-row 
 
     #gallery-image-1,
     #gallery-image-2,
@@ -580,35 +646,6 @@ font-family: "Neue Haas Grotesk Text Pro";
     #gallery-image-4 {
       height: 35vh;
     }
-
-    #rectangle-1 {
-      position: relative;
-      height: 224px;  
-      width: 36px;  
-      background-color: #DE4D3B;
-      top: 297px;
-      right: 29px;
-    }
-
-    #rectangle-2 {
-      position: absolute;
-      height: 201px;  
-      width: 36px;  
-      background-color: #DE4D3B;
-      top: -17px;
-      left: 398px;
-    }
-
-    #rectangle-3 {
-      position: absolute;
-      transform: rotate(90deg); /* Equal to rotateZ(90deg) */
-      height: 201px;  
-      width: 36px;  
-      background-color: #DE4D3B;
-      top: -100px;
-      left: 310px;
-    }
-
 
 }
 
