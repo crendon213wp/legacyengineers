@@ -462,7 +462,7 @@ p#service-prg {
 #service-row,
 #portfolio-section {
   background-image: url('../img/logo mark.png');
-  background-position: right;
+  background-position: top right;
   background-repeat: no-repeat;
   background-size: 582px 874px;
   z-index: -2;
