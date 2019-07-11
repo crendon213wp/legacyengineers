@@ -72,9 +72,24 @@ h5 {
 
 #front-prg,
 #about-lead {
+  color: #555;
+  font-family: "Neue Haas Grotesk Text Pro";
   font-weight: 600;
 }
 
+#front-prg-2 {
+  color: #868686;
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-size: 16px;
+}
+
+.front-serv-p,
+.front-ldr-p {
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-size: 18px;
+  letter-spacing: 0.23px;
+  color: #868686;
+}
 
 /*Glyphs*/
 
@@ -103,6 +118,8 @@ h5 {
 }
 
 #front-services h5 {
+  font-family: "Neue Haas Grotesk Text Pro";
+  color: #555555;
   font-weight: 700;
   font-size: 20px;
 }
@@ -138,18 +155,24 @@ h5 {
   font-size: 16px;
   font-family: "Neue Haas Grotesk Text Pro";
   font-weight: 700;
+  line-height: 28px;
 }
 
 .card-body h6 {
   font-size: 16px;
   margin-top: -10px;
   font-family: "Neue Haas Grotesk Text Pro";
+  color: #868686;
+}
+
+.card-body p {
+  color: #868686;
 }
 
 .card-body p,
 .card-body a  {
   font-family: "Neue Haas Grotesk Text Pro";
-  font-size: 14px;  
+  font-size: 14px;
 }
 
 .card-img-top {
@@ -163,6 +186,11 @@ h5 {
   background-color: #DE4D3B;
   color: #fff;
   border-radius: 2px; 
+}
+
+.card-body:hover p,
+.card-body:hover h6 {
+  color: #fff;
 }
 
 /*Carousel Section*/
