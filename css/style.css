@@ -70,11 +70,16 @@ h5 {
 
 /*Font Styling*/
 
+#front-prg {
+  line-height: 34px;
+  font-size: 24px;
+}
+
 #front-prg,
 #about-lead {
   color: #555;
   font-family: "Neue Haas Grotesk Text Pro";
-  font-weight: 600;
+  font-weight: 500;
 }
 
 #front-prg-2 {
