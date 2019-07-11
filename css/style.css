@@ -194,12 +194,14 @@ h5 {
 
 #caption-1a {
   font-family: 'neue-haas-grotesk-display', sans-serif;  
-  text-shadow: 4px 4px 4px rgba(0,0,0,.5);
+  text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+  font-weight: 600;
 }
 
 .fourth-title {
   font-family: 'miller-banner', serif;
   font-weight: 300;
+  text-shadow: 2px 2px 2px rgba(0,0,0,.5);
 }
 
 #header-prg {
