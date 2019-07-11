@@ -43,6 +43,7 @@ h5 {
   color: #363636;
   font-family: 'miller-banner', serif;
   font-weight: 700;
+  line-height: 64px;
 }
 
 .horizontal-1 {
@@ -80,6 +81,14 @@ h5 {
   color: #555;
   font-family: "Neue Haas Grotesk Text Pro";
   font-weight: 500;
+}
+
+#about-section #about-prg {
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-size: 18px;
+  color: #868686;
+  letter-spacing: 0.23px;
+  line-height: 28px;
 }
 
 #front-prg-2 {
@@ -262,9 +271,6 @@ font-family: "Neue Haas Grotesk Text Pro";
   margin-left: auto;
   margin-right: auto;
 }
-
-
-
 
 #port-4grid-1,
 #port-6grid-1,
@@ -463,6 +469,43 @@ font-family: "Neue Haas Grotesk Text Pro";
 }
 
 
+/*Media Queries*/
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #about-section p,
+    #about-section .about-header,
+    #service-row .service-header,
+    #about-section .horizontal-1,
+    #service-row .horizontal-1 {
+      padding-left: auto;
+      padding-right: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #main-text h1 {
+      font-size: 2rem;
+    }
+} 
+
+@media only screen and (min-width: 1025px) {
+    #about-section p {
+      padding-left: 300px;
+      padding-right: 300px;
+    }
+
+    #about-section .about-header,
+    #service-row .service-header {
+      padding-left: 250px;,
+    }
+
+    #about-section .horizontal-1,
+    #service-row .horizontal-1 {
+      margin-left: 250px;
+    }
+}
+
+
 @media only screen and (min-width: 992px) {
   
     /*Grid Images*/
@@ -497,25 +540,10 @@ font-family: "Neue Haas Grotesk Text Pro";
       font-size: 15px;
     }
 
-    #about-section p {
-      padding-left: 300px;
-      padding-right: 300px;
-    }
-
-    #about-section .about-header,
-    #service-row .service-header {
-      padding-left: 250px;,
-    }
-
-    #about-section .horizontal-1,
-    #service-row .horizontal-1 {
-      margin-left: 250px;
-    }
-
     .about-image,
     .service-image {
       width: 99vw;
-      height: 30vh;
+      height: 40vh;
     }
 
     #service-row p#service-prg {
