@@ -8,6 +8,11 @@ h5 {
 .navbar-nav {
   font-size: 20px;
   font-family: 'neue-haas-grotesk-display', sans-serif;
+  letter-spacing: 2.2px;
+}
+
+.bg-light {
+  background-color: #fff !important;
 }
 
 /*Row Styling*/
@@ -205,7 +210,7 @@ h5 {
 }
 
 #header-prg {
-  font-family: 'neue-haas-grotesk-display', sans-serif;
+font-family: "Neue Haas Grotesk Text Pro";
   font-size: 24px;
   text-shadow: 1px 1px 1px rgba(0,0,0,.9); 
 }
