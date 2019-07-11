@@ -322,6 +322,7 @@ h5 {
   font-family: 'neue-haas-grotesk-display', sans-serif;
   font-size: 14px; 
   width: 169px;
+  letter-spacing: 2px;
 }
 
 .btn-danger {
@@ -473,7 +474,7 @@ h5 {
     .about-image,
     .service-image {
       width: 99vw;
-      height: 60vh;
+      height: 30vh;
     }
 
     #service-row p#service-prg {
