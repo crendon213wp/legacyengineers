@@ -115,15 +115,10 @@ h5 {
   width: 266px;
 }
 
-#grid-a .grid-a1,
-#grid-a .grid-a2,
-#grid-a .grid-a3,
-#grid-a .grid-a4 {
-  height: 84px;
+#grid-a p {
   color: #868686; 
   font-family: "Neue Haas Grotesk Text Pro";  
-  font-size: 16px;  
-  text-align: center !important;
+  font-size: 16px;
 }
 
 
@@ -212,6 +207,23 @@ h5 {
   font-size: 24px;
   text-shadow: 1px 1px 1px rgba(0,0,0,.9); 
 }
+
+/*Second Carousel*/
+
+/*.second-text {
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}*/
+
+.card-deck img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 
 #port-4grid-1,
 #port-6grid-1,
