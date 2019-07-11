@@ -1,7 +1,13 @@
+p,
+h5 {
+  font-family: 'neue-haas-grotesk-display', sans-serif;
+}
+
 /*Navbar Section*/
 
 .navbar-nav {
   font-size: 20px;
+  font-family: 'neue-haas-grotesk-display', sans-serif;
 }
 
 /*Row Styling*/
@@ -28,8 +34,9 @@
 .portfolio-header,
 #carousel-caption h2,
 .grid-format-header {
-  font-size: 3em;
-  font-family: 'DM Serif Display', serif !important;
+  font-size: 56px;
+  color: #363636;
+  font-family: 'miller-banner', serif;
   font-weight: 700;
 }
 
@@ -58,13 +65,29 @@
 
 /*Glyphs*/
 
-.fa-home,
-.fa-wrench,
-.fa-circle-o-notch,
-.fa-clipboard {
-  color: #C0372B !important;
+#consuleng {
+  height: 89px; 
+  width: 80px;
 }
 
+#sustain {
+  height: 81px; 
+  width: 81px;
+}
+#genconstr {
+  height: 70px; 
+  width: 69px;
+}
+
+#constrmgmt {
+  height: 90px; 
+  width: 66px;
+  margin-top: -10px;
+}
+
+#front-services h5 {
+  font-weight: 700;
+}
 
 /*Card Section*/
 
@@ -100,16 +123,19 @@
 }
 
 #caption-1a {
-    font-family: 'Roboto', sans-serif !important;
-    text-shadow: 4px 4px 4px rgba(0,0,0,.5);
+  font-family: 'neue-haas-grotesk-display', sans-serif;  
+  text-shadow: 4px 4px 4px rgba(0,0,0,.5);
 }
 
 .fourth-title {
-  font-family: 'Cardo', serif;
+  font-family: 'miller-banner', serif;
+  font-weight: 300;
 }
 
 #header-prg {
-      text-shadow: 1px 1px 1px rgba(0,0,0,.9); 
+  font-family: 'neue-haas-grotesk-display', sans-serif;
+  font-size: 24px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.9); 
 }
 
 #port-4grid-1,
@@ -206,12 +232,13 @@
 /*Button Stylings*/
 .btn {
   border-radius: 0px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: 'neue-haas-grotesk-display', sans-serif;
+  width: 169px;
 }
 
 .btn-danger {
-  background-color: #C0372B;
-  border-color: #C0372B;
+  background-color: #DE4D3B;
+  border-color: #DE4D3B;
 }
 
 .btn-danger:hover {
@@ -253,9 +280,31 @@
   color: #C0372B;
 } 
 
-/*Grid Images*/
+#about-img {
+  margin-top: 70px;
+  z-index: 1;
+  position: relative;
+}
+
+
+.modal-header {
+  background-image: url('../img/about-image.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
 
 @media only screen and (min-width: 992px) {
+  
+    /*Grid Images*/
+
     #service-row-1a{
       box-shadow: 250px 25px 0px #fff;
     }
@@ -319,17 +368,14 @@
       height: 35vh;
     }
 
+    #rectangle-1 {
+      position: relative;
+      height: 224px;  
+      width: 36px;  
+      background-color: #DE4D3B;
+      top: 297px;
+      right: 29px;
 }
 
-.modal-header {
-  background-image: url('../img/about-image.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
+
 }
