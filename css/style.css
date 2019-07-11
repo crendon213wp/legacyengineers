@@ -461,12 +461,10 @@ p#service-prg {
 #about-section,
 #service-row,
 #portfolio-section {
-  background-image: url('../img/Legacy-Engineers-Final-Logo.png');
-  background-position: center center;
+  background-image: url('../img/logo mark.png');
+  background-position: right;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 50%;
-  width: 100%;
+  background-size: 582px 874px;
   z-index: -2;
 }
 
@@ -596,13 +594,14 @@ p#service-prg {
       font-size: 2rem;
     }
 
-/*    #rectangle-4,
+    #rectangle-4,
     #rectangle-5,
     #rectangle-6,
     #rectangle-7,
-    #rectangle-8 {
-      display: none;
-    }*/
+    #rectangle-8,
+    #rectangle-9 {
+      display: none !important;
+    }
 } 
 
 @media only screen and (min-width: 1113px) {
