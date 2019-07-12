@@ -26,6 +26,11 @@ h5 {
 
 .list-group-item {
   background-color: transparent;
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-size: 18px;
+  letter-spacing: 0.23px;
+  line-height: 28px;
+  color: #868686;
 }
 
 /*Font Header Styling*/
@@ -515,6 +520,10 @@ p#service-prg {
 
 /*Modal */
 
+.modal-header {
+  border-bottom: none !important;
+}
+
 .modal-body h3 {
   font-family: "Neue Haas Grotesk Text Pro";
   color: #555555;
@@ -568,7 +577,7 @@ p#service-prg {
 }
 
 .close:hover {
-  color: #868686;
+  color: #fff;
 }
 
 #exampleModalScrollable1,
