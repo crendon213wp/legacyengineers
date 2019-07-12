@@ -764,7 +764,7 @@ p#service-prg {
     #gallery-image-2,
     #gallery-image-3,
     #gallery-image-4 {
-      height: 35vh;
+      height: 35vh !important;
     }
 
 }
