@@ -486,8 +486,23 @@ p#service-prg {
   position: relative;
 }
 
+/*Modal */
 
-.modal-header {
+.modal-body h3 {
+  font-family: "Neue Haas Grotesk Text Pro";
+  color: #555555;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.modal-body p {
+  color: #868686;
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.modal-img-1 {
   background-image: url('../img/about-image.jpg');
   background-position: center center;
   background-repeat: no-repeat;
@@ -497,7 +512,45 @@ p#service-prg {
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 200px;
+  position: relative;
+  z-index: 1;
+}
+
+.modal-img-2 {
+  background-image: url('../img/about-image.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 175px;
+  position: relative;
+  z-index: 1;
+}
+
+.close {
+  position: fixed;
+  top: 200px;
+  right: 300px;
+  height: 20px;
+  color: #DE4D3B;
+}
+
+.close:hover {
+  color: #868686;
+}
+
+#exampleModalScrollable1,
+#exampleModalScrollable2 {
+  background-color: rgba(44,44,44,0.99);
+}
+
+.modal-lg {
+  margin-top: -75px;
 }
 
 
@@ -585,6 +638,24 @@ p#service-prg {
   left: 540px;
 }
 
+#rectangle-10 {
+    position: absolute;
+    width: 25px;
+    height: 150px;
+    background-color: #DE4D3B;
+    bottom: 72px;
+    right: 424px;
+}
+
+#rectangle-11 {
+    position: absolute;
+    width: 25px;
+    height: 150px;
+    background-color: #DE4D3B;
+    bottom: 95px;
+    right: 424px;
+}
+
 /*Media Queries*/
 
 @media only screen and (min-width: 359px) and (max-width: 1112px) {
@@ -610,7 +681,8 @@ p#service-prg {
     #rectangle-6,
     #rectangle-7,
     #rectangle-8,
-    #rectangle-9 {
+    #rectangle-9,
+    #rectangle-10 {
       display: none !important;
     }
 } 
@@ -665,5 +737,13 @@ p#service-prg {
     #grid-a .grid-a3,
     #grid-a .grid-a4 {
       width: auto;
+    }
+}
+
+
+
+@media only screen and (min-width: 577px) {
+    .modal-dialog-scrollable {
+        max-height: calc(70% - 3.5rem) !important;
     }
 }
