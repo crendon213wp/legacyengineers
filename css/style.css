@@ -470,6 +470,8 @@ p#service-prg {
 #contact-prg p {
   color: #868686;
   font-size: 16px;
+  font-family: "Neue Haas Grotesk Text Pro";
+  line-height: 21px;
 }
 
 /*Footer Section*/
