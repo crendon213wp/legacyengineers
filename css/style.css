@@ -240,6 +240,13 @@ h5 {
   height: 3.125em;
 }
 
+.carousel-indicators {
+  text-align: right;
+  float: right;
+  right: 2% !important;
+  left: inherit;
+}
+
 .carousel-indicators li {
   background-color: #fff;
 }
@@ -250,21 +257,40 @@ h5 {
 
 #caption-1a {
   font-family: 'neue-haas-grotesk-display', sans-serif;  
-  text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
   font-weight: 600;
+  letter-spacing: -0.2px;
+  font-size: 87px;
 }
 
 .fourth-title {
   font-family: 'miller-banner', serif;
   font-weight: 300;
-  text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+  letter-spacing: -0.2px;
+  font-size: 87px;
 }
 
 #header-prg {
-font-family: "Neue Haas Grotesk Text Pro";
+  font-family: "Neue Haas Grotesk Text Pro";
   font-size: 24px;
   text-shadow: 1px 1px 1px rgba(0,0,0,.9); 
 }
+
+/*@media only screen and (min-width: 834px) and (max-width: 1112px) {
+  #caption-1a,
+  .fourth-title {
+    font-size: 2rem;
+    letter-spacing: -0.2px;
+    text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+  }
+
+  #header-prg {
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-size: 16px;
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;     
+  }
+}*/
 
 /*Service Page*/
 
