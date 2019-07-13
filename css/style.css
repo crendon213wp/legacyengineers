@@ -413,7 +413,6 @@ p#service-prg {
 .text-1,
 .text-2 {
   color: #fff;
-  font-size: 20px;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -423,11 +422,17 @@ p#service-prg {
 }
 
 .text-1 {
-  top: 45%
+  top: 45%;
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-size: 24px;
+  line-height: 34px;
 }
 
 .text-2 {
   top: 55%;
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-size: 16px;
+  line-height: 28px;
 }
 
 
@@ -789,3 +794,6 @@ p#service-prg {
         max-height: calc(70% - 3.5rem) !important;
     }
 }
+
+
+/*Lightbox Code*/
