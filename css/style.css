@@ -376,16 +376,19 @@ p#service-prg {
 }
 
 
-.gallery-image-1 {
-  height: 100%;
+/*.gallery-image-1 {
+  height: 22.5rem;
+  width: 22.5rem;
   padding-top: 0;
   padding-bottom: 0;
 }
 
 .gallery-image-2 {
+  height: 22.5rem;
+  width: 22.5rem;
   height: 100%;
   width: 100%;
-}
+}*/
 
 .overlay {
   position: absolute;
@@ -393,8 +396,8 @@ p#service-prg {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
   opacity: 0;
   transition: .5s ease;
   background-color: rgba(192,55,43,.7);
@@ -760,12 +763,13 @@ p#service-prg {
 
     #service-row 
 
-    #gallery-image-1,
+/*    div.no-gutters:nth-child(1) > div:nth-child(1) > img:nth-child(1),
     #gallery-image-2,
     #gallery-image-3,
     #gallery-image-4 {
-      height: 35vh !important;
-    }
+      height: 360px !important;
+      width: 360px !important;
+    }*/
 
 }
 
