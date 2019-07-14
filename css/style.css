@@ -710,7 +710,9 @@ p#service-prg {
     #service-row .service-header,
     #about-section .horizontal-1,
     #service-row .horizontal-1,
-    #service-prg {
+    #service-prg,
+    .portfolio-header,
+    .portfolio-prg {
       margin-left: auto;
       margin-right: auto;
     }
@@ -766,17 +768,6 @@ p#service-prg {
       height: 40vh;
     }
 
-    #service-row 
-
-/*    div.no-gutters:nth-child(1) > div:nth-child(1) > img:nth-child(1),
-    #gallery-image-2,
-    #gallery-image-3,
-    #gallery-image-4 {
-      height: 360px !important;
-      width: 360px !important;
-    }*/
-
-}
 
 @media only screen and (max-width: 991.98px) {
     #grid-a .grid-a1,
