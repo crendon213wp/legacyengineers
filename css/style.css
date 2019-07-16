@@ -769,6 +769,22 @@ p#service-prg {
 
 /*Media Queries*/
 
+@media only screen and (max-width: 1337px) {
+  #about-section p {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  
+  #about-section .about-header {
+    padding-left: 250px;
+  }
+ 
+  #about-section .horizontal-1 {
+     margin-left: 250px; 
+  }
+  
+}
+
 @media only screen and (min-width: 359px) and (max-width: 1112px) {
     #about-section p,
     #about-section .about-header,
@@ -801,17 +817,11 @@ p#service-prg {
 } 
 
 @media only screen and (min-width: 1113px) {
-    #about-section p {
-      padding-left: 300px;
-      padding-right: 300px;
-    }
 
-    #about-section .about-header,
     #service-row .service-header {
-      padding-left: 250px;,
+      padding-left: 250px;
     }
 
-    #about-section .horizontal-1,
     #service-row .horizontal-1 {
       margin-left: 250px;
     }
@@ -833,7 +843,6 @@ p#service-prg {
       height: 40vh;
     }
 
-
 @media only screen and (max-width: 991.98px) {
     #grid-a .grid-a1,
     #grid-a .grid-a2,
@@ -842,8 +851,6 @@ p#service-prg {
       width: auto;
     }
 }
-
-
 
 @media only screen and (min-width: 577px) {
     .modal-dialog-scrollable {
