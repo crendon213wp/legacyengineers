@@ -184,14 +184,11 @@ h5 {
   color: #868686;
 }
 
-.card-body p {
-  color: #868686;
-}
-
 .card-body p,
 .card-body a  {
   font-family: "Neue Haas Grotesk Text Pro";
   font-size: 14px;
+  color: #868686; 
 }
 
 .card-img-top {
@@ -208,7 +205,8 @@ h5 {
 }
 
 .card-body:hover p,
-.card-body:hover h6 {
+.card-body:hover h6,
+.card-body:hover a {
   color: #fff;
 }
 
