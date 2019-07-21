@@ -23,15 +23,6 @@
   background-color: #e9ecef !important;
 }
 
-.list-group-item {
-  background-color: transparent;
-  font-family: "Neue Haas Grotesk Text Pro";
-  font-size: 18px;
-  letter-spacing: 0.23px;
-  line-height: 28px;
-  color: #868686;
-}
-
 /*Font Header Styling*/
 
 .front-services-header,
@@ -421,50 +412,49 @@
 
 /*Service Page*/
 
+#service-prg {
+  font-family: 'neue-haas-grotesk-text', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 34px;
+  color: #555555;
+}
+
+
 #service-row-1 h2,
 #service-row-2 h2,
 #service-row-3 h2,
 #service-row-4 h2 {
-  font-family: "Neue Haas Grotesk Display Pro";
+  font-family: 'neue-haas-grotesk-display', sans-serif;
+  font-weight: 500;
+  font-style: normal;
   font-size: 38px;
   line-height: 44px;
   color: #363636;
 }
 
-.service-font-1,
-.service-font-3,
-.service-font-4 {
-  font-family: "Neue Haas Grotesk Text Pro";
+.service-prg-2,
+.service-prg-3,
+.service-prg-4 {
+  font-family: 'neue-haas-grotesk-text', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #868686;
   font-size: 16px;
   line-height: 28px;
 }
 
-p#service-prg {
-  font-family: "Neue Haas Grotesk Text Pro";
-  font-size: 24px;
-  color: #555555;
+.list-group-item {
+  background-color: transparent;
+  font-family: 'neue-haas-grotesk-text', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 0.23px;
+  line-height: 28px;
+  color: #868686;
 }
-
-
-
-
-
-/*@media only screen and (min-width: 834px) and (max-width: 1112px) {
-  #caption-1a,
-  .fourth-title {
-    font-size: 2rem;
-    letter-spacing: -0.2px;
-    text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
-  }
-
-  #header-prg {
-  font-family: "Neue Haas Grotesk Text Pro";
-  font-size: 16px;
-  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;     
-  }
-}*/
-
 
 
 /*Portfolio Page*/
@@ -892,8 +882,8 @@ p#service-prg {
     }
 
     #service-prg {
-      margin-left: 320px;
-      margin-right: 320px;
+      margin-left: 300px;
+      margin-right: 300px;
     }
 }
 
