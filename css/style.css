@@ -1,14 +1,13 @@
-p,
-h5 {
-  font-family: 'neue-haas-grotesk-display', sans-serif;
-}
-
 /*Navbar Section*/
 
-.navbar-nav {
-  font-size: 20px;
-  font-family: 'neue-haas-grotesk-display', sans-serif;
-  letter-spacing: 2.2px;
+.navbar-nav .nav-link {
+  font-family: 'neue-haas-grotesk-display', sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  color: #363636 !important;
+  font-size: 18px !important;
+  letter-spacing: 2.21px !important;
+  line-height: 31px !important;
 }
 
 .bg-light {
@@ -76,12 +75,36 @@ h5 {
 
 /*Font Styling*/
 
-#front-prg {
+/*Index.html*/
+
+#front-prg-1, 
+#front-prg-2 {
+  font-family: 'neue-haas-grotesk-text', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#front-prg-1 {
+  color: #555;
   line-height: 34px;
   font-size: 24px;
 }
 
-#front-prg,
+#front-prg-2 {
+  color: #868686;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.front-serv-p {
+  font-family: 'neue-haas-grotesk-text', sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-size: 18px !important;
+  letter-spacing: 0.23px !important;
+  color: #868686 !important;
+}
+
 #about-lead {
   color: #555;
   font-family: "Neue Haas Grotesk Text Pro";
@@ -96,18 +119,29 @@ h5 {
   line-height: 28px;
 }
 
-#front-prg-2 {
-  color: #868686;
-  font-family: "Neue Haas Grotesk Text Pro";
-  font-size: 16px;
+/*Button Stylings*/
+.btn {
+  border-radius: 0px;
+  font-family: 'neue-haas-grotesk-display', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px; 
+  width: 169px;
+  letter-spacing: 2px;
 }
 
-.front-serv-p,
-.front-ldr-p {
-  font-family: "Neue Haas Grotesk Text Pro";
-  font-size: 18px;
-  letter-spacing: 0.23px;
-  color: #868686;
+.btn-danger {
+  background-color: #DE4D3B;
+  border-color: #DE4D3B;
+}
+
+.btn-danger:hover {
+  background-color: #FF4500;
+  border-color: #FF4500;
+}
+
+#submit {
+  width: 361px;
 }
 
 /*Glyphs*/
@@ -137,10 +171,22 @@ h5 {
 }
 
 #front-services h5 {
-  font-family: "Neue Haas Grotesk Text Pro";
-  color: #555555;
+  font-family: 'neue-haas-grotesk-text', sans-serif;
   font-weight: 700;
+  font-style: normal;
+  color: #555555;
   font-size: 20px;
+  line-height: 28px;
+}
+
+
+#front-services p {
+  color: #868686; 
+  font-family: 'neue-haas-grotesk-text', sans-serif;
+  font-weight: 400;
+  font-style: normal;  
+  font-size: 16px;
+  line-height: 28px;
 }
 
 #grid-a .grid-a1 {
@@ -156,14 +202,19 @@ h5 {
   width: 266px;
 }
 
-#grid-a p {
-  color: #868686; 
-  font-family: "Neue Haas Grotesk Text Pro";  
-  font-size: 16px;
+/*Front Leadership*/
+
+.front-ldr-p {
+  font-family: 'neue-haas-grotesk-text', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 0.23px;
+  line-height: 28px;
+  color: #868686;
 }
 
-
-/*Card Section*/
+/* Front Leadership Card Section*/
 
 .card-body {
   border-radius: 2px;
@@ -171,22 +222,37 @@ h5 {
 }
 
 .card-body h5 {
-  font-size: 16px;
-  font-family: "Neue Haas Grotesk Text Pro";
+  font-family: 'neue-haas-grotesk-text', sans-serif;
   font-weight: 700;
+  font-style: normal;
+  color: #868686;
+  font-size: 16px;
   line-height: 28px;
 }
 
 .card-body h6 {
   font-size: 16px;
   margin-top: -10px;
-  font-family: "Neue Haas Grotesk Text Pro";
+  font-family: 'neue-haas-grotesk-text', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #868686;
+  line-height: 28px;
 }
 
-.card-body p,
+.card-body p {
+  font-family: 'neue-haas-grotesk-text', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #868686; 
+  line-height: 20px;
+}
+
 .card-body a  {
-  font-family: "Neue Haas Grotesk Text Pro";
+  font-family: 'neue-haas-grotesk-display', sans-serif;
+  font-weight: 600;
+  font-style: normal;
   font-size: 14px;
   color: #868686; 
 }
@@ -200,17 +266,18 @@ h5 {
 #card:hover,
 #card-button:hover {
   background-color: #DE4D3B;
-  color: #fff;
+  color: #fff !important;
   border-radius: 2px; 
 }
 
 .card-body:hover p,
+.card-body:hover h5,
 .card-body:hover h6,
 .card-body:hover a {
-  color: #fff;
+  color: #fff !important;
 }
 
-/*Carousel Section*/
+/* Front Page 2nd Carousel Section*/
 
 .main-text {
     position: absolute;
@@ -230,7 +297,11 @@ h5 {
 }
 
 #carousel-caption p {
-  font-family: "Neue Haas Grotesk Text Pro";
+  font-family: 'neue-haas-grotesk-text', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 28px;
   padding: 3px 12px 6px 12px;
 }
 
@@ -279,6 +350,68 @@ h5 {
   font-size: 24px;
   text-shadow: 1px 1px 1px rgba(0,0,0,.9); 
 }
+
+/*Front Page Contact Us*/
+
+#contact-prg h5 {
+  font-family: 'neue-haas-grotesk-text', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 34px;
+  color: #555555;
+}
+
+#contact-prg p {
+  font-family: 'neue-haas-grotesk-text', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #868686;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.addr-1,
+.addr-2 {
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #868686;
+  line-height: 21px;
+}
+
+.addr-2 {
+  margin-left: 25px; 
+}
+
+/*Footer Section*/
+
+#footer {
+  background-color: #363636; 
+}
+
+#footer h6 {
+  color: #EAEAEA; 
+  font-family: 'ubuntu', sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+  font-size: 14px;
+  line-height: 21px;
+}
+
+#footer .nav-link {
+  font-family: 'neue-haas-grotesk-text', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 1.37px;
+  line-height: 31px;
+  color: #EAEAEA;
+  text-transform: uppercase;
+}
+
+
 
 /*@media only screen and (min-width: 834px) and (max-width: 1112px) {
   #caption-1a,
@@ -434,76 +567,6 @@ p#service-prg {
 }
 
 
-/*Button Stylings*/
-.btn {
-  border-radius: 0px;
-  font-family: 'neue-haas-grotesk-display', sans-serif;
-  font-size: 14px; 
-  width: 169px;
-  letter-spacing: 2px;
-}
-
-.btn-danger {
-  background-color: #DE4D3B;
-  border-color: #DE4D3B;
-}
-
-.btn-danger:hover {
-  background-color: #FF4500;
-  border-color: #FF4500;
-}
-
-#submit {
-  width: 361px;
-}
-
-/*Contact Section*/
-
-.addr-1,
-.addr-2 {
-  font-size: 16px;
-  color: #868686;
-}
-
-.addr-2 {
-  margin-left: 25px; 
-}
-
-#contact-prg h5 {
-  color: #555555;
-}
-
-#contact-prg p {
-  color: #868686;
-  font-size: 16px;
-  font-family: "Neue Haas Grotesk Text Pro";
-  line-height: 21px;
-}
-
-/*Footer Section*/
-
-#footer {
-  font-family: 'neue-haas-grotesk-display', sans-serif; 
-  font-size: 14px;
-  background-color: #363636;
-  letter-spacing: 1.37px;
-}
-
-#footer h6 {
-  color: #EAEAEA; 
-  font-family: 'Ubuntu';  
-  font-size: 14px;
-}
-
-#footer ul li {
-  text-transform: uppercase;
-}
-
-#footer ul li a {
-  color: #eaeaea;
-}
-
-
 #front-about,
 #front-leadership,
 #about-section,
@@ -615,7 +678,7 @@ p#service-prg {
   width: 36px;  
   background-color: #DE4D3B;
   top: -17px;
-  left: 460px;
+  left: 398px;
 }
 
 #rectangle-3 {
@@ -625,15 +688,15 @@ p#service-prg {
   width: 36px;  
   background-color: #DE4D3B;
   top: -100px;
-  left: 360px;
+  left: 310px;
 }
 
 #rectangle-4 {
   position: inherit;
   background-color: #fff;
-  height: 380px;
+  height: 360px;
   width: 848px;
-  margin-bottom: -420px;
+  margin-bottom: -400px;
   margin-left: 280px;
 }
 
@@ -651,7 +714,7 @@ p#service-prg {
   background-color: #fff;
   height: 350px;
   width: 848px;
-  margin-bottom: -400px;
+  margin-bottom: -380px;
   margin-left: 280px;
 }
 
@@ -660,7 +723,7 @@ p#service-prg {
   width: 25px;
   height: 150px;
   background-color: #DE4D3B;
-  top: 250px;
+  top: 230px;
   left: 540px;
 }
 
@@ -687,8 +750,8 @@ p#service-prg {
   width: 25px;
   height: 150px;
   background-color: #DE4D3B;
-  bottom: 76px;
-  right: 545px;
+  bottom: 72px;
+  right: 424px;
   }
 
 #rectangle-11 {
@@ -696,8 +759,8 @@ p#service-prg {
   width: 25px;
   height: 150px;
   background-color: #DE4D3B;
-  bottom: 100px;
-  right: 545px;
+  bottom: 95px;
+  right: 424px;
 }
 
 #baguetteBox-figcaption-0 > h5,
@@ -769,50 +832,6 @@ p#service-prg {
 
 /*Media Queries*/
 
-@media only screen and (min-width: 1337px) {
-  #about-section p {
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-  
-  #about-section .about-header {
-    padding-left: 250px;
-  }
- 
-  #about-section .horizontal-1 {
-     margin-left: 250px; 
-  }
-  
-  #service-row .service-header {
-    padding-left: 250px;
-  }
-
-  #service-row .horizontal-1 {
-    margin-left: 250px;
-  }
-
-  #service-prg {
-    margin-left: 320px;
-    margin-right: 320px;
-  }
-  
-}
-
-@media only screen and (max-width: 1337px) {
-    #rectangle-1,
-    #rectangle-2,
-    #rectangle-3,
-    #rectangle-4,
-    #rectangle-5,
-    #rectangle-6,
-    #rectangle-7,
-    #rectangle-8,
-    #rectangle-9,
-    #rectangle-10 {
-      display: none !important;
-    }
-}
-
 @media only screen and (min-width: 359px) and (max-width: 1112px) {
     #about-section p,
     #about-section .about-header,
@@ -829,7 +848,43 @@ p#service-prg {
     #main-text h1 {
       font-size: 2rem;
     }
+    
+    #rectangle-1,
+    #rectangle-2,
+    #rectangle-3,
+    #rectangle-4,
+    #rectangle-5,
+    #rectangle-6,
+    #rectangle-7,
+    #rectangle-8,
+    #rectangle-9,
+    #rectangle-10 {
+      display: none !important;
+    }
 } 
+
+@media only screen and (min-width: 1113px) {
+    #about-section p {
+      padding-left: 300px;
+      padding-right: 300px;
+    }
+
+    #about-section .about-header,
+    #service-row .service-header {
+      padding-left: 250px;,
+    }
+
+    #about-section .horizontal-1,
+    #service-row .horizontal-1 {
+      margin-left: 250px;
+    }
+
+    #service-prg {
+      margin-left: 320px;
+      margin-right: 320px;
+    }
+}
+
 
 @media only screen and (min-width: 992px) {
   
@@ -841,6 +896,7 @@ p#service-prg {
       height: 40vh;
     }
 
+
 @media only screen and (max-width: 991.98px) {
     #grid-a .grid-a1,
     #grid-a .grid-a2,
@@ -849,6 +905,8 @@ p#service-prg {
       width: auto;
     }
 }
+
+
 
 @media only screen and (min-width: 577px) {
     .modal-dialog-scrollable {
