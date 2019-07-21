@@ -105,20 +105,6 @@
   color: #868686 !important;
 }
 
-#about-lead {
-  color: #555;
-  font-family: "Neue Haas Grotesk Text Pro";
-  font-weight: 500;
-}
-
-#about-section #about-prg {
-  font-family: "Neue Haas Grotesk Text Pro";
-  font-size: 18px;
-  color: #868686;
-  letter-spacing: 0.23px;
-  line-height: 28px;
-}
-
 /*Button Stylings*/
 .btn {
   border-radius: 0px;
@@ -411,22 +397,27 @@
   text-transform: uppercase;
 }
 
+/*About Us Page*/
 
+#about-lead {
+  font-family: 'neue-haas-grotesk-text', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #555;
+  font-size: 24px;
+  line-height: 34px;
+}
 
-/*@media only screen and (min-width: 834px) and (max-width: 1112px) {
-  #caption-1a,
-  .fourth-title {
-    font-size: 2rem;
-    letter-spacing: -0.2px;
-    text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
-  }
+#about-prg {
+  font-family: 'neue-haas-grotesk-text', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #868686;
+  letter-spacing: 0.23px;
+  line-height: 28px;
+}
 
-  #header-prg {
-  font-family: "Neue Haas Grotesk Text Pro";
-  font-size: 16px;
-  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;     
-  }
-}*/
 
 /*Service Page*/
 
@@ -454,6 +445,27 @@ p#service-prg {
   font-size: 24px;
   color: #555555;
 }
+
+
+
+
+
+/*@media only screen and (min-width: 834px) and (max-width: 1112px) {
+  #caption-1a,
+  .fourth-title {
+    font-size: 2rem;
+    letter-spacing: -0.2px;
+    text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+  }
+
+  #header-prg {
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-size: 16px;
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;     
+  }
+}*/
+
+
 
 /*Portfolio Page*/
 .portfolio-prg {
