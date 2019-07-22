@@ -536,6 +536,7 @@ font-style: normal;
 
 
 /*Portfolio Page*/
+
 .portfolio-prg {
   font-family: 'neue-haas-grotesk-text', sans-serif;
   font-weight: 400;
@@ -548,44 +549,6 @@ font-style: normal;
 .card-deck img {
   margin-left: auto;
   margin-right: auto;
-}
-
-#port-4grid-1,
-#port-6grid-1,
-#port-6grid-3 {
-  background-image: url("../img/project-image-1a.png");
-}
-
-#port-4grid-2,
-#port-6grid-2 {
-  background-image: url("../img/project-image-2a.png");
-}
-
-#port-4grid-3,
-#port-6grid-4,
-#port-6grid-6 {
-  background-image: url("../img/project-image-3.png");
-}
-
-#port-4grid-4,
-#port-6grid-5 {
-  background-image: url("../img/project-image-4.png");
-}
-
-#port-4grid-1,
-#port-4grid-2,
-#port-4grid-3,
-#port-4grid-4,
-#port-6grid-1,
-#port-6grid-2,
-#port-6grid-3,
-#port-6grid-4,
-#port-6grid-5
-#port-6grid-6 {
-  background-color: #222;
-  background-position: center center;
-  background-size: cover;
-  height: 50vh;
 }
 
 .overlay {
@@ -629,7 +592,7 @@ font-style: normal;
 }
 
 .text-2 {
-  top: 55%;
+  top: 60%;
   font-family: 'neue-haas-grotesk-text', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -637,7 +600,50 @@ font-style: normal;
   line-height: 28px;
 }
 
-/*Project-4 / Stylings*/
+/*Project-4 / Project-6 Stylings*/
+
+#project-4-grid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+#port-4grid-1,
+#port-6grid-1,
+#port-6grid-3 {
+  background-image: url("../img/project-image-1a.png");
+}
+
+#port-4grid-2,
+#port-6grid-2 {
+  background-image: url("../img/project-image-2a.png");
+}
+
+#port-4grid-3,
+#port-6grid-4,
+#port-6grid-6 {
+  background-image: url("../img/project-image-3.png");
+}
+
+#port-4grid-4,
+#port-6grid-5 {
+  background-image: url("../img/project-image-4.png");
+}
+
+#port-4grid-1,
+#port-4grid-2,
+#port-4grid-3,
+#port-4grid-4,
+#port-6grid-1,
+#port-6grid-2,
+#port-6grid-3,
+#port-6grid-4,
+#port-6grid-5
+#port-6grid-6 {
+  background-color: #222;
+  background-position: center center;
+  background-size: cover;
+  height: 50vh;
+}
 
 #proj-4h h4 {
   font-family: 'neue-haas-grotesk-text', sans-serif;
