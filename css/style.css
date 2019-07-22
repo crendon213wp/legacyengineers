@@ -842,9 +842,9 @@ font-style: normal;
 #rectangle-6 {
   position: inherit;
   background-color: #fff;
-  height: 350px;
+  height: 375px;
   width: 848px;
-  margin-bottom: -380px;
+  margin-bottom: -410px;
   margin-left: 280px;
 }
 
@@ -853,7 +853,7 @@ font-style: normal;
   width: 25px;
   height: 150px;
   background-color: #DE4D3B;
-  top: 230px;
+  top: 260px;
   left: 540px;
 }
 
