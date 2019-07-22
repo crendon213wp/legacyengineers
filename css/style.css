@@ -510,21 +510,6 @@
   height: 50vh;
 }
 
-
-/*.gallery-image-1 {
-  height: 22.5rem;
-  width: 22.5rem;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-.gallery-image-2 {
-  height: 22.5rem;
-  width: 22.5rem;
-  height: 100%;
-  width: 100%;
-}*/
-
 .overlay {
   position: absolute;
   top: 0;
@@ -570,6 +555,55 @@
   line-height: 28px;
 }
 
+/*Project-4 / Stylings*/
+
+#proj-4h h4 {
+  font-family: 'neue-haas-grotesk-text', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #555555;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+#proj-4h h6 {
+  font-family: 'neue-haas-grotesk-text', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #868686;
+  font-size: 18px;
+  letter-spacing: 0.23px;
+  line-height: 28px;
+}
+
+.proj-4p {
+  font-family: 'neue-haas-grotesk-text', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #868686;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.fa-chevron-left {
+  padding-right: 20px;
+}
+
+.fa-chevron-right {
+  padding-left: 20px;
+}
+
+#proj-nav h6 {
+  font-family: 'neue-haas-grotesk-display', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #555555;
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  line-height: 17px;
+}
+
+/*Watermark Images*/
 
 #front-about,
 #front-leadership,
@@ -600,15 +634,19 @@
 }
 
 .modal-body h3 {
-  font-family: "Neue Haas Grotesk Text Pro";
+  font-family: 'neue-haas-grotesk-text', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #555555;
   font-size: 24px;
   line-height: 34px;
 }
 
 .modal-body p {
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #868686;
-  font-family: "Neue Haas Grotesk Text Pro";
   font-size: 16px;
   line-height: 28px;
 }
@@ -790,47 +828,6 @@
   font-family: "Neue Haas Grotesk Text Pro";
   font-size: 16px;
   line-height: 28px;
-}
-
-
-/*Project-4 Stylings*/
-
-#proj-4h h4 {
-  color: #555555;
-  font-family: "Neue Haas Grotesk Text Pro";
-  font-size: 24px;
-  line-height: 34px;
-}
-
-#proj-4h h6 {
-  color: #868686;
-  font-family: "Neue Haas Grotesk Text Pro";
-  font-size: 18px;
-  letter-spacing: 0.23px;
-  line-height: 28px;
-}
-
-.proj-4p {
-  color: #868686;
-  font-family: "Neue Haas Grotesk Text Pro";
-  font-size: 16px;
-  line-height: 28px;
-}
-
-.fa-chevron-left {
-  padding-right: 20px;
-}
-
-.fa-chevron-right {
-  padding-left: 20px;
-}
-
-#proj-nav h6 {
-  color: #555555;
-  font-family: "Neue Haas Grotesk Display Pro";
-  font-size: 14px;
-  letter-spacing: 0.9px;
-
 }
 
 
