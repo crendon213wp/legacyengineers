@@ -977,6 +977,17 @@ font-style: normal;
   }
 }
 
+@media only screen and (min-width: 1336px) and (max-width: 1400px) {
+    .rectangle-10 {
+      right: 74px;
+    }
+  
+  .rectangle-11 {
+    right: 74px;
+    bottom: 225px;
+  }
+}
+
 @media only screen and (min-width: 1337px) {
     #about-section p {
       padding-left: 300px;
