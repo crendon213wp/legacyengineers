@@ -971,6 +971,12 @@ font-style: normal;
     }
 } 
 
+@media only screen and (min-width: 359px) and (max-width: 1335px) {
+    .modal-xl > div:nth-child(1) > div:nth-child(2) {
+      margin-top: 15%;
+  }
+}
+
 @media only screen and (min-width: 1337px) {
     #about-section p {
       padding-left: 300px;
