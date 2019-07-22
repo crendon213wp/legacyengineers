@@ -808,7 +808,7 @@ font-style: normal;
   width: 36px;  
   background-color: #DE4D3B;
   top: -17px;
-  left: 460px;
+  left: 398px;
 }
 
 #rectangle-3 {
@@ -818,7 +818,7 @@ font-style: normal;
   width: 36px;  
   background-color: #DE4D3B;
   top: -100px;
-  left: 370px;
+  left: 310px;
 }
 
 #rectangle-4 {
@@ -842,9 +842,9 @@ font-style: normal;
 #rectangle-6 {
   position: inherit;
   background-color: #fff;
-  height: 375px;
+  height: 350px;
   width: 848px;
-  margin-bottom: -410px;
+  margin-bottom: -380px;
   margin-left: 280px;
 }
 
@@ -853,7 +853,7 @@ font-style: normal;
   width: 25px;
   height: 150px;
   background-color: #DE4D3B;
-  top: 260px;
+  top: 230px;
   left: 540px;
 }
 
@@ -877,22 +877,20 @@ font-style: normal;
 
 #rectangle-10 {
   position: absolute;
-  width: 50px;
+  width: 25px;
   height: 150px;
   background-color: #DE4D3B;
-  bottom: 45px;
-  right: 550px;
-  z-index: -1;
+  bottom: 72px;
+  right: 424px;
   }
 
 #rectangle-11 {
   position: absolute;
-  width: 50px;
+  width: 25px;
   height: 150px;
   background-color: #DE4D3B;
-  bottom: 75px;
-  right: 550px;
-  z-index: -1;
+  bottom: 95px;
+  right: 424px;
 }
 
 #baguetteBox-figcaption-0 > h5,
@@ -1002,7 +1000,6 @@ font-style: normal;
 }
 
 
-
 @media only screen and (min-width: 577px) {
     .modal-dialog-scrollable {
         max-height: calc(70% - 3.5rem) !important;
@@ -1010,4 +1007,8 @@ font-style: normal;
 }
 
 
-/*Lightbox Code*/
+@media only screen and (max-width: 1024px) {
+    .main-text  {
+      top: 150px !important;
+    }
+}
