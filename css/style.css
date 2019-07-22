@@ -886,20 +886,22 @@ font-style: normal;
 
 #rectangle-10 {
   position: absolute;
-  width: 25px;
+  width: 50px;
   height: 150px;
   background-color: #DE4D3B;
   bottom: 72px;
-  right: 424px;
+  right: 374px;
+  z-index: -1;
   }
 
 #rectangle-11 {
   position: absolute;
-  width: 25px;
+  width: 50px;
   height: 150px;
   background-color: #DE4D3B;
-  bottom: 95px;
-  right: 424px;
+  bottom: 145px;
+  right: 374px;
+  z-index: -1;
 }
 
 #baguetteBox-figcaption-0 > h5,
