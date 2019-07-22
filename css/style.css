@@ -154,8 +154,8 @@ font-style: normal;
   font-weight: 600;
   font-style: normal;
   font-size: 14px; 
-  width: 169px;
   letter-spacing: 2px;
+  width: 100% !important;
 }
 
 .btn-danger {
@@ -960,6 +960,10 @@ font-style: normal;
     #rectangle-10 {
       display: none !important;
     }
+
+    .box-1 {
+      margin-top: 5%;
+    }
 } 
 
 @media only screen and (min-width: 1113px) {
@@ -1016,5 +1020,9 @@ font-style: normal;
 @media only screen and (max-width: 1024px) {
     .main-text  {
       top: 150px !important;
+    }
+
+    .box-1 {
+      margin-top: 6% !important;
     }
 }
